@@ -1,5 +1,7 @@
 # dwitter-cheat-sheet
-Tips and tricks I picked up from awesome dweets at https://dwitter.net. You can find my dweets here https://www.dwitter.net/u/rippedspine :)
+Tips and tricks I picked up from awesome dweets at [Dwitter](https://dwitter.net).
+
+You can find my [dweets here](https://www.dwitter.net/u/rippedspine) :)
 
 
 ## even/odd using `&` ([bitwise AND](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND))
