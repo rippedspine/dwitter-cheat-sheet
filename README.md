@@ -35,3 +35,9 @@ not sure how this works...
 from [basic dwitter guide](https://www.reddit.com/r/dwitter/comments/7mgcd1/basic_dwitter_guide/) by [Xen](https://www.dwitter.net/u/Xen/top)
 
 - `for( i=9 ; i-- ; second_thing ) thing ;`
+
+
+## initiate values
+If you need to initiate a value at the beginning of the loop, like a counter.
+
+- `t||(count=0)count++`
