@@ -25,6 +25,11 @@ instead of i%2==0 to get even/odd, do x&1
 - ...
 
 
+## setting (only) fontsize
+x.font needs to have a font family set, or else it will ignore font size
+
+- `x.font="6em 🤷"` '🤷' can be any character
+
 ## shortest way to clear canvas using `|` ([bitwise OR](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR))
 not sure how this works...
 
