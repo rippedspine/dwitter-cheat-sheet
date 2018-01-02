@@ -29,6 +29,7 @@ instead of i%2==0 to get even/odd, do x&1
 not sure how this works...
 
 - `c.width|=0`
+- edit: `c.width^=0` seem to have the same effect, interesting.
 
 
 ## for loops
