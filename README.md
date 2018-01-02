@@ -29,16 +29,22 @@ instead of i%2==0 to get even/odd, do x&1
 not sure how this works...
 
 - `c.width|=0`
-- edit: `c.width^=0` seem to have the same effect, interesting.
-
+- edit: `c.width^=0` seem to have the same effect, interesting. [bitwise XOR](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR).
 
 ## for loops
 from [basic dwitter guide](https://www.reddit.com/r/dwitter/comments/7mgcd1/basic_dwitter_guide/) by [Xen](https://www.dwitter.net/u/Xen/top)
 
-- `for( i=9 ; i-- ; second_thing ) thing ;`
+- `for(i=9;i--;second_thing)thing;`
 
 
 ## initiate values
 If you need to initiate a value at the beginning of the loop, like for a counter.
 
 - `t||(count=0);count++`
+
+
+---
+### credit is where credit's due
+The above tips and tricks are snatched from a number of dweets. Sometimes I forgot which, or I have seem the same trick used in multiple dweets by different users. As much as possible I will try to keep track on and list dweets where I got some or multiple trick from here:
+
+-  [#5132](https://www.dwitter.net/d/5132) by [Erazed](https://www.dwitter.net/u/Erazed) `c.width^=0` and `x.font="6em 🤷"`
