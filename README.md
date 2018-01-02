@@ -38,6 +38,6 @@ from [basic dwitter guide](https://www.reddit.com/r/dwitter/comments/7mgcd1/basi
 
 
 ## initiate values
-If you need to initiate a value at the beginning of the loop, like a counter.
+If you need to initiate a value at the beginning of the loop, like for a counter.
 
-- `t||(count=0)count++`
+- `t||(count=0);count++`
