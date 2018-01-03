@@ -46,6 +46,7 @@ from [basic dwitter guide](https://www.reddit.com/r/dwitter/comments/7mgcd1/basi
 If you need to initiate a value at the beginning of the loop, like for a counter.
 
 - `t||(count=0);count++`
+- `t?run:setup` (`t?count++:count=0`)
 
 
 ---
@@ -53,3 +54,4 @@ If you need to initiate a value at the beginning of the loop, like for a counter
 The above tips and tricks are snatched from a number of dweets. Sometimes I forgot which, or I have seen the same trick used in multiple dweets by different users. As much as possible I will try to keep track on and list dweets where I got some or multiple trick from here:
 
 -  [#5132](https://www.dwitter.net/d/5132) by [Erazed](https://www.dwitter.net/u/Erazed) `c.width^=0` and `x.font="6em 🤷"`
+- `t?run:setup` [Xen](https://www.dwitter.net/u/Xen/top)
