@@ -10,6 +10,9 @@ credit: [albertveli.wordpress.com](https://albertveli.wordpress.com/2011/07/22/s
 - `for(mask=0xB8,num=1,i=255;i--;console.log(num),num&1?(num>>=1,num^=mask):(num>>=1));`
 
 
+## plotting an ellipse/circle
+- `for(i=1920;i--;x.fillRect(960+300*C(i),540+300*S(i),4,4));` -> x = centerX + radius * cos(angle), y = centerY + radius * sin(angle)
+
 ## even/odd using `&` ([bitwise AND](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND))
 instead of i%2==0 to get even/odd, do x&1
 
