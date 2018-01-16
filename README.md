@@ -4,6 +4,12 @@ Tips and tricks I picked up from awesome dweets at [Dwitter](https://dwitter.net
 You can find my [dweets here](https://www.dwitter.net/u/rippedspine) :)
 
 
+## psuedo random number generator
+credit: [albertveli.wordpress.com](https://albertveli.wordpress.com/2011/07/22/shortest-pseudo-random-algorithm-in-the-world/)
+
+- `for(mask=0xB8,num=1,i=255;i--;console.log(num),num&1?(num>>=1,num^=mask):(num>>=1));`
+
+
 ## even/odd using `&` ([bitwise AND](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND))
 instead of i%2==0 to get even/odd, do x&1
 
